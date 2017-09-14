@@ -17,7 +17,11 @@ body, html{
   background-size: cover;
 }
 
-#worm, #employees {
+#worm {
+  padding-bottom: 50px;
+}
+
+#worm, #employees, #why-worm {
   background-color: #fff;
   text-align: center;
   margin: 0 auto;
@@ -27,11 +31,12 @@ body, html{
 #worm i.fa {
   font-size: 4.0rem;
   color: #85B5E4;
+  padding-bottom: 15px;
 }
 
 #employees{
   background-color: #eee;
-  height: 100%;
+  padding-bottom: 50px;
 }
 
 #sub-footer {
@@ -58,6 +63,7 @@ body, html{
   transition: color 0.2s ease-out;
   transform: translateX(-50%);
 }
+
 
 .header-content {
   display: table-cell;
@@ -86,9 +92,9 @@ body, html{
   max-width: 1140px;
 }
 
-.intro {
+.intro, .why {
   font-size: 3.2rem;
-  margin: 10rem 0 2.0rem;
+  margin: 5rem 0 2.0rem;
 }
 
 .statement {
@@ -96,8 +102,18 @@ body, html{
 }
 
 footer{
-  padding: 80px 0 50px;
+  padding: 40px 0 30px;
   background-color: #2A3A3F;
   color: #FFF;
   text-align: center;
+}
+
+.social-icons {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
 }

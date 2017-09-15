@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-  background-color: #eee;
+  background-color: #ccc;
   padding: 30px 0px;
 }
 
@@ -12,6 +12,30 @@ body {
   max-width: 300px;
 }
 
+#header .profile-title {
+  padding-top: 50px;
+}
+
 #header .profile-name, .profile-job {
   text-align: center;
+}
+
+#about, #skills {
+  padding: 50px 0 50px;
+}
+
+#skills {
+  background-color: #eee;
+}
+
+.back-button{
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  left: 5%;
+  position: absolute;
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
 }

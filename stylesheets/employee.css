@@ -30,7 +30,7 @@ body {
 }
 
 #skills {
-  background-color: #eee;
+  background-color: #c9d5f5;
 }
 
 .back-button{
@@ -43,4 +43,8 @@ body {
   transition: color 0.2s ease-out;
   transform: translateX(-50%);
   font-size: 1.5rem;
+}
+
+.about-paragraph{
+  font-size: 1.25rem;
 }

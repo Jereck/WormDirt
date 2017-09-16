@@ -49,3 +49,7 @@ body {
 .about-paragraph{
   font-size: 1.25rem;
 }
+
+.carousel-item {
+  padding-top: 10px;
+}

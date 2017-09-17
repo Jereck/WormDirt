@@ -1,0 +1,38 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+
+body, html{
+  height: 100%;
+}
+
+#hero {
+  background-image: url("../images/webdesign.jpg");
+
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header{
+  font-size: 4.0rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.header-content {
+  display: table-cell;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-container{
+  padding: 0 40px;
+  display: table;
+  margin: 0 auto;
+  height: 100%;
+}

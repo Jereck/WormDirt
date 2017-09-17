@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['submit'])){
+  if(isset($_POST['submit'])){
     $to = "wormdirt@wormdirtdevelopment.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $first_name = $_POST['first_name'];
@@ -18,6 +18,5 @@ if(isset($_POST['submit'])){
     mail($to, $subject, $message, $headers);
 
     header("Location: http://wormdirtdevelopment.com/redirect.html");
-    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-    }
+  }
 ?>
